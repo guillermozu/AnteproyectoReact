@@ -1,6 +1,6 @@
 import { Nav } from "../Nav/Nav";
 import { Link } from "react-router-dom";
-import logo from "../../assets/react.svg";
+import logo from "../../assets/logo celu.jpg";
 import "./Header.css";
 
 export const Header = () => {
@@ -9,7 +9,7 @@ export const Header = () => {
       <div className="logo-container">
         <Link to={"/"}>
           <img src={logo} alt="logo reactiva" />
-          <span>Reactiva</span>
+          <span>Celu Loza</span>
         </Link>
       </div>
       <Nav />
