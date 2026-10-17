@@ -5,6 +5,8 @@ import { Header } from "./components/Header/Header";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
 import { CartView } from "./components/Cart/CartView";
+import { FormContainer } from "./components/Form/FormContainer";
+import { FormUI } from "./components/Form/FormUI";
 
 function App() {
   return (
@@ -18,8 +20,18 @@ function App() {
           {/* opcional: filtro por categorias */}
           <Route path="/category/:category" element={<ItemListContainer />} />
         </Routes>
+
+        <section className="container my-4">
+          <h2>Formulario de contacto</h2>
+          <FormContainer />
+        </section>
+
       </main>
-      <Footer />
+      
+        <Footer/>
+        
+
+        
     </>
   );
 }
