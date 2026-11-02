@@ -1,6 +1,6 @@
 import { Form } from "react-router-dom";
 
-const IM...IM
+const IMGBB_API_KEY = "c2b1c238bfdac81898af66929acc84b5"
 const ENDPOINT = "https://api.imgbb.com/1/upload";
 
 export const uploadImage =  async (file)=> {
